@@ -1,13 +1,14 @@
+# -*-coding:utf-8 -*
 from tkinter import*
 from random import*
 import tkinter.messagebox
 
 
-#On crée une fenêtre non redimensionnable avec une icone et on initialise les principales variables
+# On crée une fenêtre non redimensionnable avec une icone et on initialise les principales variables
 
 fen=Tk()
 fen.title("Memory")
-fen.iconbitmap("iconeMem.ico")
+fen.iconbitmap("@iconeMem.xbm")
 fen.config(bg="LIGHTBLUE")
 fen.resizable(width=False,height=False)
 
